@@ -267,7 +267,7 @@ INSERT INTO tbl_endereco_animal (
 -- INSERTS TBL_PEDIDO_ADOCAO
 
 INSERT INTO tbl_pedido_adocao (
-    data_pedido, status_pedido, animal_id, usuario_id
+    data_solicitacao, status_pedido, animal_id, usuario_id
 ) VALUES
 ('2025-11-20', 'Pendente', 1, 2),  -- João pediu adoção do Bolt
 ('2025-11-21', 'Aprovado', 2, 1),  -- Mariana adotou a Misty
