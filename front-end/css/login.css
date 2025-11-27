@@ -124,13 +124,13 @@ body {
 .campo:focus {
  
   background-color: #fff;
-  color:#FFFFFF;
+  color: #000000;
 
 }
 
 .campo:placeholder {
 
-  color: #cccccc;
+  color: #000000;
 
 }
 
