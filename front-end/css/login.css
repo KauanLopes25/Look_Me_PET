@@ -73,8 +73,12 @@ body {
 .input-senha i {
   position: absolute;
   right: 12px;
-  padding-top: 3.7rem;
+  margin-top: 3.7rem;
   color: rgba(0,0,0,0.5);
+}
+
+#icon-senha:hover {
+  cursor: pointer;
 }
 
 .criar-cadastro {
@@ -102,7 +106,7 @@ body {
 }
 
 .botao:hover  { 
-  background-color: #8AA2A4; 
+  background-color: #434d4e; 
   color: #FFFFFF;
 }
 
@@ -110,11 +114,11 @@ body {
   border: none;
   outline: none;
   padding: 10px 5px;
+  padding-right: 40px;
   text-decoration: none;
   font-size: 16px;
   margin-bottom: 10px;
   width: 100%;
-  border-radius: 4px;
   float: left;
   transition: 0.3s;
   border-radius:10px;
@@ -143,7 +147,7 @@ body {
 
 }
 
-.link:hover { color:#8AA2A4; }
+.link:hover { color:#434d4e; }
 
 @media (min-width: 1280px) {
 

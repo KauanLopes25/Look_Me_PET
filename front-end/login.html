@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <style>@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');</style>
     <style>@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poetsen+One&display=swap');</style>
+    <script src="./js/login.js" defer type="module"></script>
     <title>LooK Me! - Login</title>
 </head>
 <body>
@@ -19,12 +20,12 @@
       
             <form class="box-login" method="post" action="#">
               <div class="input-login">
-                <input type="email" id="email" class="campo" name="email" placeholder="E-mail">
+                <input type="text" id="user" class="campo" name="usuario" placeholder="Usuário">
                 <i class="bi bi-person"></i>
               </div>
               <div class="input-senha">
-                <input type="text" id="password" class="campo" name="senha" placeholder="Senha">
-                <i class="bi bi-lock"></i>
+                <input type="password" id="senha" class="campo" name="senha" placeholder="Senha">
+                <i id="icon-senha" class="bi bi-eye"></i>
               </div>
               <input type="submit" class="botao" value="ENTRAR">
             </form>
@@ -37,5 +38,6 @@
         </div>
       
       </div>
+
 </body>
 </html>

@@ -1,0 +1,14 @@
+/* Reset */
+*{  
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box;   
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body { 
+  background: linear-gradient(to bottom, #0171A3, #48C7ED);
+  height: 100vh;
+}
