@@ -10,20 +10,20 @@
 
 //mostrar ou ocultar a senha no input ao clicar no icone de olho
 
-const inputSenha = document.getElementById("senha");
-const iconSenha = document.getElementById("icon-senha");
+const inputSenha = document.getElementById("senha")
+const iconSenha = document.getElementById("icon-senha")
 
 iconSenha.addEventListener("click", () => {
-    const ehSenha = inputSenha.type == "password";
+    const ehSenha = inputSenha.type == "password"
 
-    inputSenha.type = ehSenha ? "text" : "password";
+    inputSenha.type = ehSenha ? "text" : "password"
 
     if (ehSenha) {
-        iconSenha.classList.remove("bi-eye");
-        iconSenha.classList.add("bi-eye-slash");
+        iconSenha.classList.remove("bi-eye")
+        iconSenha.classList.add("bi-eye-slash")
     } else {
-        iconSenha.classList.remove("bi-eye-slash");
-        iconSenha.classList.add("bi-eye");
+        iconSenha.classList.remove("bi-eye-slash")
+        iconSenha.classList.add("bi-eye")
     }
-});
+})
 
